@@ -1,4 +1,4 @@
-package com.endlessway.biodemo;
+package com.endlessway.biodemo.oncesen;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-public class BIOServe1 {
+public class BIOServer {
     public static void main(String[] args) {
         try {
             System.out.println("===服务端启动===");
